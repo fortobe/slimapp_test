@@ -1,0 +1,10 @@
+main:
+  method: 'get'
+  path: ~
+  controller: App\Controller\HomeController
+  action: index
+trailers:
+  method: 'get'
+  path: 'trailers/{id}'
+  controller: App\Controller\HomeController
+  action: trailers
